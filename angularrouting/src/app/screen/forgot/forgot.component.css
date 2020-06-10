@@ -1,0 +1,52 @@
+body{
+    font-family: 'Gotu', sans-serif;
+}
+.form{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 12%;
+    text-align: center;
+    margin-bottom: 10%;
+    
+}
+.form h1{
+    color: #053AA2;
+    margin-bottom:2% ;
+}
+.formbox{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    padding-bottom: 5px;
+    border: 2px solid lightgray;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px 7px #88888865;
+}
+.btn1{
+    background-color:  #053AA2; 
+    color: white;
+    margin: 10px;
+    padding: 10px 40px;
+    
+}
+.btn1:hover{
+    background-color: #4b86e5 ;
+}
+@media screen and (max-width:1025px){
+    .form{
+        margin-top: 70px;
+    }
+
+    .formbox{
+        width: 100%;
+      
+    }
+}
+@media screen and (max-width:700px){
+    .formbox{
+        
+        box-shadow: none;
+        border: none;
+    }
+}

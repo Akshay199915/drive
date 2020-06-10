@@ -1,0 +1,118 @@
+body{
+    font-family: 'Gotu', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.main{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    background: url(../../../assets/img/holidays-car-travel-adventure-21014.jpg);
+    background-color: rgba(0, 0, 0, 0.701);
+    background-blend-mode: overlay;
+    padding-top: 7%;
+    
+    color: white;
+
+}
+.lg p{
+    color: rgba(255, 255, 255, 0.521);
+}
+.contactf{
+    
+    background-color: white;
+    position: absolute;
+    top:45%;
+    left: 16.6%;
+    
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    
+    
+    box-shadow: 5px 5px 15px 20px #88888865;
+    margin-bottom: 10%;
+}
+.formbox{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2%;
+    
+    
+   
+    
+    
+}
+.contacti{
+    padding: 0;
+    width: 100%;
+    margin: 0 0;
+    
+    padding: 5%;
+    color: rgba(255, 255, 255);
+    text-align: left;
+    background-color: #053AA2;
+    
+   
+    
+    
+}
+
+.btn1{
+    background-color: #053AA2; 
+    color:  white;
+    margin: 40px 10px;
+    padding: 2%;
+    text-align: center;
+    
+    float: right;
+    
+}
+.btn1:hover{
+    background-color: #4b86e5 ;
+}
+
+@media screen and (max-width:560px){
+   .lg p,h1{
+       display: none;
+   }
+   .btn1{
+       margin: 10px;
+       
+   }
+   .contacti{
+       text-align: center;
+   }
+   .contactf{
+       top:20%
+   }
+   .h4s{
+       font-size: 1em;
+   }
+   input{
+       font-size: 0.8em;
+   }
+}
+@media screen and (max-width:1025px){
+    .lg{
+        margin-top: 80px;
+    }
+    .lg h1{
+        padding: 0;
+        font-size: 1.8em;
+    }
+    .contactf{
+        top:400px;
+    }
+    .contacti{
+        font-size: 0.8em;
+        padding: 2%;
+        padding-top: 10%;
+    }
+    .contacti h6{
+        font-size: 1em;
+        margin-bottom: 40px;
+    }
+}

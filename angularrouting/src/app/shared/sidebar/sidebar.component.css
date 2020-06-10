@@ -1,0 +1,58 @@
+.head{
+    height: 4px;
+}
+
+.jumbotron{
+    padding-top: 13px;
+    
+}
+.form{
+    height: 350px;
+    width: 80%;
+    background-color: white;
+   
+    padding: 0px;
+    margin: 0px;
+    
+    border-radius: 5px;
+    text-align: center;
+    /* position: relative;
+    z-index: 2; */
+    
+    
+}
+.input-group {
+
+ margin-bottom: 20px; 
+ border-bottom: 1px solid #053AA2;  
+}
+.input-group-text{
+    background: white;
+    border: none;
+}
+input{
+    border: none;
+}
+.btnn{
+    text-align: center;
+    background-color:  #053AA2;
+    color: white;
+    margin-top: 20px;
+    
+}
+.btnn:hover{
+    background-color: #4b86e5;
+}
+.padding{
+    padding: 40px;
+    padding-top: 0px;
+}
+@media screen and (max-width:1025px){
+    .padding{
+        padding: 20px;
+        padding-top: 0px;
+    }
+    .form{
+        width: 95%;
+    }
+}

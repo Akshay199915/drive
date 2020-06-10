@@ -1,0 +1,150 @@
+
+    
+    <app-header></app-header>
+
+<!--<section class="block">
+    <div class="containeruemp-profile c ">
+      <form method="post">
+        <div class="col-md-4">
+            <h1  style="color: blue; text-align: center;">
+               Profile
+             </h1>
+          </div>
+          <div class="row">
+              <div class="col-md-4">
+                  <div class="profile-img">
+                      <img src="../../../assets/img/internet-screen-security-protection-60504.jpg" alt=""/>
+                      </div>
+              </div>
+              <div class="col-md-2">
+                <h3>
+                    User Name
+                 </h3>
+              </div>
+              <div class="col-md-2">
+               <button type="submit" class="btn  btn-lg "><a  href="profile-edit"> Edit Profile </a></button>
+              </div>
+       
+          </div>
+              <div class="col-md-8">
+                  <div class="row">
+                      <div class="profile-head">
+                              
+                       <ul class="nav nav-tabs" id="myTab" role="tablist">
+                          <li class="nav-item ">
+                              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">DETAILS</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">ACCOUNT</a>
+                          </li>
+                      </ul>
+                     </div>
+                  </div>
+              </div>
+          
+          <div class="row">
+              <div class="col-md-8">
+                  <div class="tab-content profile-tab" id="myTabContent">
+                      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                  <div class="row">
+                                      <div class="col-md-6">
+                                          <label>Your Bio :</label>
+                                          <input type="text" class="form-control" id="yourBio" placeholder="Write my Bio">
+                                       </div>
+                                   </div>
+                                  <div class="row">
+                                      <div class="col-md-6">
+                                          <label>Verification :</label><br>
+                                          <a href="#" >Verify Your Documents</a><br>
+                                          <a href="#" > Verify Your Financial Documents </a>
+                                     </div>
+                                  </div>
+                                  <div class="row">
+                                      <div class="col-md-6">
+                                          <label>Car</label>
+                                          <input type="text" class="form-control" id="#" placeholder="Add Car">
+                                       </div>
+                                   </div>
+                                   <div class="row">
+                                      <div class="col-md-6">
+                                          <label>Refferal</label>
+                                         <input type="text" class="form-control" id="#" placeholder="Enter Refferal Code">
+                                       </div>
+                                   </div>
+                                  <div class="row">
+                                      <div class="col-md-6">
+                                        <a href="#" >  See my Profile </a>
+                                      </div>
+                                  </div>
+                      </div>
+                      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Your Stats :</label><br>
+                                <a href="#" >See ratings you left</a><br>
+                                <a href="#" >See ratings you recieved</a>
+                           </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Account :</label><br>
+                                <a href="#" >Payment history</a><br>
+                                <a href="#" > My Downline</a><br>
+                                <a href="#" > Bank Detail</a>
+                           </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Prefrences :</label><br>
+                                <a href="#" >Notifications and communications</a><br>
+                                <a href="#" > Change password </a><br>
+                                <a href="#" >Posted address</a>
+                           </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>ABOUT :</label><br>
+                                <a href="#" >Terms & Conditions</a><br>
+                                <a href="#" > Support (+919567893478) </a><br>
+                                <a href="#" > Activate Account</a>
+                           </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <button type="submit" class="btn btn-primary btn-md">LOG OUT</button>
+                          </div>
+                       </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </form>           
+    </div>
+</section>
+-->
+<table *ngIf="userDetails" class="table-fill">
+    <thead>
+        <tr>
+            <th colspan="2" class="text-center">User Profile</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>First Name</td>
+            <td>{{userDetails.fullName.split(' ')[0]}}</td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td>{{userDetails.fullName.split(' ')[1]}}</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>{{userDetails.email}}</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="text-center">
+                <input type="button" (click)="onLogout()" value="Logout" />
+            </td>
+        </tr>
+    </tbody>
+  </table>

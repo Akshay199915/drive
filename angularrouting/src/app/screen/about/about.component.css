@@ -1,0 +1,90 @@
+body{
+    font-family: 'Gotu', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+/*  color: #053AA2; */
+.main{
+    margin: 0 auto;
+    margin-top: 5%;
+    text-align: center;
+    width: 100%;
+    color:#053AA2; 
+}
+.main p{
+    color:rgb(50, 50, 50);
+}
+.mission{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+.mission h3{
+    color: black;
+    padding: 10px;
+}
+.mission p{
+    padding: 15px;
+}
+.customer{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.photo{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.photo h3{
+    color: black;
+   margin: 20px;
+}
+.team{
+    width: 100%;
+    
+    background-color: rgba(255, 235, 205, 0.112);
+    text-align: center;
+    padding: 2%;
+    padding-bottom: 8% ;
+}
+.photo1{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.photo1 h3{
+    color: black;
+   margin: 20px;
+}
+
+
+@media screen and (max-width:560px){
+    .resabout{
+        padding-top: 50px;
+    }
+    .main h2{
+        font-size: 1.5em;
+        
+    }
+    .mission p{
+        padding: 10px 5px;
+    }
+    
+}
+@media screen and (max-width:1025px){
+   
+    .resabout{
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .mission{
+        padding: 7px;
+    }
+    .mission h3{
+        padding: 8px 0;
+    }
+}

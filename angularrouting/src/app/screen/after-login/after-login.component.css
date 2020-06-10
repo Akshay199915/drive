@@ -1,0 +1,413 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    width: 100%;
+    font-family: 'Gotu', sans-serif;
+   
+    
+}
+.particle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 700px;
+    width: 100%;
+}
+.main{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    
+    width: 100%;
+    height: 700px;
+    background-image: url(../../../assets/img/car-1149997_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+.main-text{
+   position: relative;
+   z-index: 2;
+    
+    color:white;
+    padding :70px;
+    margin-top: 40px;
+    /* opacity: 80% ; */
+
+}
+.main-text h4{
+    padding-left: 60px;
+
+}
+.middelimg{
+    position: relative;
+    top:-20%;
+    left: 0;
+    
+    z-index: 3;
+    
+}
+.find-ride{
+    margin: 0 auto;
+    margin-top: 90px;
+    padding: 80px;
+}
+.Appp{
+    
+    margin: 0 auto;
+    text-align: center;
+}
+.imageapp:hover{
+    opacity: 80%;
+   
+}
+
+.parallax{
+    position: relative;
+    opacity: 85%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../../assets/img/football-stadium-3404535_1920.jpg");
+    min-height: 400px;
+  
+  }
+
+  
+
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 30%;
+    width: 100%;
+    opacity: 100%;
+    text-align: center;
+    color:white;
+    letter-spacing: 5px;
+    padding: 18px;
+  }
+  .caption h5 a{
+      color: white;
+  }
+  .caption h5 a:hover{
+    color: rgba(255, 255, 255, 0.589);
+}
+
+
+.slider{
+    width: 80%;
+    height: 500px;
+    /* background-color: rgba(245, 222, 179, 0.158); */
+    
+    position: relative;
+}
+.sbox{
+    border-radius: 10px;
+    width: 100%;
+    /* background-color: rgba(5, 57, 162, 0.849); */
+    background: url(../../../assets/img/mountain-1429843_1280.jpg);
+    background-color: rgba(0, 0, 0, 0.701);
+    background-blend-mode: overlay;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: 5px 5px 15px 20px #88888865;
+    position: absolute;
+    top:10%;
+    left:14%;
+    z-index: 20;
+    height: 80%;
+    text-align: center;
+    padding: 1%;
+    color: rgb(255, 255, 255);
+    opacity: 100%;
+    font-family: 'Comic Neue', cursive;
+    
+}
+.slide{
+    opacity: 100%;
+    text-align: center;
+    margin-top: 2%;
+    color: rgba(255, 255, 255, 0.514);
+    word-spacing: 2px;
+    padding-top: 0px;
+
+}
+.slide h2{
+    padding: 200px;
+    padding-top: 0;
+    padding-bottom: 10px;
+}
+.slide h3{
+    
+    padding-bottom: 40px;
+}
+  
+ 
+.gbimgleft img,h1,p{
+    padding: 20px;
+    padding-left: 8%;
+    padding-top: 0px;
+}
+.boxes{
+    padding: 80px;
+    border-top: #053AA2 solid 5px;
+    /* border-bottom: #053AA2 solid 5px; */
+}
+.boxw{
+    
+    margin-bottom: 20px;
+}
+.boxb{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    overflow: hidden;
+    
+    
+    
+   
+    background-color: rgba(0, 0, 0, 0.738);
+    color: white;
+    text-align: center;
+    transition: .5s ease;
+    height: 0;
+    
+}
+.boxb h1{
+    font-size: 1.5em;
+}
+.boxb p{
+    font-size: 0.7em;
+    
+}
+.boxw:hover .boxb{
+    height: 100%;
+    
+    
+    
+    
+}
+.news{
+
+    margin: 40px;
+}
+
+.news-style-one{
+	position:relative;
+	margin-bottom:50px;	
+}
+
+.news-style-one .inner-box{
+	position:relative;
+	display:block;	
+}
+
+.news-style-one .image-box{
+	position:relative;
+	display:block;
+	margin-bottom:20px;	
+}
+
+.news-style-one .image-box img{
+	position:relative;
+	display:block;
+	width:100%;
+	border-radius:3px;
+}
+
+.news-style-one .date-box{
+	position:absolute;
+	left:20px;
+	bottom:20px;
+	width:50px;
+	text-align:center;
+	color:#ffffff;
+	font-family: 'Heebo', sans-serif;
+	background:#053AA2;
+}
+
+.news-style-one .date-box .day{
+	display:block;
+	font-size:20px;
+	font-weight:700;
+	line-height:30px;
+}
+
+.news-style-one .date-box .month{
+	display:block;
+	font-size:13px;
+	font-weight:500;
+	line-height:20px;
+	background:#4b86e5;
+}
+
+.news-style-one .lower-content{
+	position:relative;
+	display:block;	
+}
+
+.news-style-one .lower-content h3{
+	position:relative;
+	font-size:18px;
+	color:#222222;
+	font-weight:500;
+	margin-bottom:5px;
+}
+
+.news-style-one .lower-content h3 a{
+	color:#222222;
+}
+
+.news-style-one .lower-content h3 a:hover{
+	color:#053AA2;
+}
+
+.news-style-one .lower-content .post-meta{
+	position:relative;
+	margin-bottom:15px;
+	line-height:24px;
+}
+
+.news-style-one .lower-content .post-meta li{
+	position:relative;
+	line-height:24px;
+	font-size:13px;
+	display:inline-block;
+	margin-right:15px;
+}
+
+.news-style-one .lower-content .post-meta li a{
+	position:relative;
+	color:#777777;
+}
+
+.news-style-one .lower-content .post-meta li .fa{
+	position:relative;
+	color:#053AA2;
+	padding-right:5px;
+}
+
+.news-style-one .lower-content .text{
+	position:relative;
+	line-height:1.8em;
+	margin-bottom:20px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:500px){
+    .main-text{
+        display: none;
+       
+        position: absolute;
+        z-index: 20;
+        
+    }
+    .Appp h1{
+        font-size: 1em;
+        text-align: center;
+    }
+    .find-ride{
+        margin-left: 10% ;
+        
+    }
+    .slider{
+        display: none;
+        position: absolute;
+        
+        z-index: 21;
+        
+        
+    }
+    .boxes{
+        display: none;
+        position: absolute;
+        z-index: 25;
+        
+        
+
+    }
+}
+@media screen and (max-device-width: 1024px) {
+    .parallax{
+      background-attachment: scroll;
+    } 
+}
+@media screen and (max-width:1025px){
+    .find-ride{
+        padding: 0;
+        
+        
+        
+
+    }
+    .main-text h1{
+        font-size: 1.4em;
+        color: rgba(128, 128, 128, 0.63);
+        margin: 0%;
+        padding: 0%;
+        
+    }
+    .main-text h4{
+        font-size: 0.9em;
+        color: rgba(128, 128, 128, 0.63);
+        padding: 0%;
+        margin: 0%;
+        padding-top: 2%;
+        
+    }
+    .slider h2{
+        font-size: 1.2em;
+        padding: 40px 80px;
+    }
+    .slider h3{
+        font-size: 1em;
+    }
+    .gbimgleft img{
+        display: none;
+    }
+    .gbimgleft h1{
+        font-size: 2em;
+        padding-right: 0;
+    }
+    .gbimgleft p{
+        font-size: 1.1em;
+        padding-right: 0;
+    }
+    /* .caption h1{
+        font-size: 1.4em;
+
+    }
+    .caption h4{
+        font-size: 1em;
+
+    }
+    .caption h5{
+        font-size: 0.8em;
+
+    }
+    .caption{
+        top: 20%;
+        padding: 20px;
+    } */
+    .parallax{
+        display: none;
+    }
+    .middelimg{
+        display: none;
+    }
+
+}

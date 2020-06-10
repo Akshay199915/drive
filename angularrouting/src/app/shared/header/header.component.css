@@ -1,0 +1,32 @@
+.tite{
+    font-weight: 700;
+}
+.mar{
+    margin: 10px;
+}
+.main{
+    background: white;
+    
+}
+.color{
+    color: #053AA2;
+}
+body{
+    font-family: 'Gotu', sans-serif;
+}
+.bgcolor{
+    background-color:  #053AA2; 
+    color: white;
+}
+a:hover{
+    color: #053AA2;
+}
+a{
+    color: rgb(50,50,50);
+}
+a:active{
+    color: #4b86e5;
+}
+.bgcolor:hover{
+    background-color: #4b86e5;
+}
