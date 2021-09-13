@@ -113,8 +113,7 @@ body{
     background: url(../../../assets/img/mountain-1429843_1280.jpg);
     background-color: rgba(0, 0, 0, 0.701);
     background-blend-mode: overlay;
-
-    background-position: center;
+   background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     box-shadow: 5px 5px 15px 20px #88888865;
@@ -145,8 +144,8 @@ body{
     padding-bottom: 10px;
 }
 .slide h3{
-    
-    padding-bottom: 40px;
+      padding-bottom: 40px;
+      
 }
   
  
